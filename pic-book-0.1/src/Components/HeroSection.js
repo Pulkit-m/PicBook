@@ -12,13 +12,6 @@ function HeroSection() {
       <div className='hero-btns'>
         <Button
           className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Upload
-        </Button>
-        <Button
-          className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
